@@ -164,7 +164,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  vite: workspace:*
+  vite: workspace:@paul-browne/vite@*
   debug: npm:obug@^1.0.2
 
 packageExtensionsChecksum: sha256-ALP5Ia6zsiM9yjyXFaKKa/8ZJft4ePXCKiURYJcKc6g=
@@ -266,7 +266,7 @@ importers:
         specifier: ^8.71.1
         version: 8.71.1(eslint@9.39.5)(ms@2.1.3)(typescript@6.0.3)
       vite:
-        specifier: workspace:*
+        specifier: workspace:@paul-browne/vite@*
         version: link:packages/vite
       vitest:
         specifier: ^5.0.3
@@ -381,7 +381,7 @@ importers:
         specifier: ^0.3.1
         version: 0.3.1
       vite:
-        specifier: workspace:*
+        specifier: workspace:@paul-browne/vite@*
         version: link:../vite
 
   packages/vite:
@@ -934,7 +934,7 @@ importers:
         specifier: ^0.7.6
         version: 0.7.6(@devframes/agentic@1.0.0)(cac@7.0.0)(crossws@0.4.12)(srvx@1.0.5)(vite@packages+vite)
       vite:
-        specifier: workspace:*
+        specifier: workspace:@paul-browne/vite@*
         version: link:../../packages/vite
 
   playground/dynamic-import:
@@ -994,7 +994,7 @@ importers:
         specifier: npm:slash@^5.1.0
         version: slash@5.1.0
       vite:
-        specifier: workspace:*
+        specifier: workspace:@paul-browne/vite@*
         version: link:../../packages/vite
       vue:
         specifier: ^3.5.43
@@ -1141,7 +1141,7 @@ importers:
         specifier: ^5.51.2
         version: 5.51.2
       vite:
-        specifier: workspace:*
+        specifier: workspace:@paul-browne/vite@*
         version: link:../../packages/vite
 
   playground/lib:
@@ -2690,7 +2690,7 @@ packages:
     peerDependencies:
       '@devframes/plugin-inspect--assets': 1.0.0
       devframe: 1.0.0
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
     peerDependenciesMeta:
       '@devframes/plugin-inspect--assets':
         optional: true
@@ -2704,7 +2704,7 @@ packages:
       '@devframes/hub': 1.0.0
       '@devframes/plugin-messages--assets': 1.0.0
       devframe: 1.0.0
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
     peerDependenciesMeta:
       '@devframes/plugin-messages--assets':
         optional: true
@@ -2717,7 +2717,7 @@ packages:
     peerDependencies:
       '@devframes/plugin-terminals--assets': 1.0.0
       devframe: 1.0.0
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
     peerDependenciesMeta:
       '@devframes/plugin-terminals--assets':
         optional: true
@@ -2735,7 +2735,7 @@ packages:
       '@devframes/hub': 1.0.0
       '@devframes/hub-ui': 1.0.0
       devframe: 1.0.0
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
     peerDependenciesMeta:
       '@devframes/hub':
         optional: true
@@ -4162,7 +4162,7 @@ packages:
   '@tailwindcss/vite@4.3.3':
     resolution: {integrity: sha512-yYU8cogLeSh/ms2jh8Fj7jaba/EWa7Ja6GoUqYZaraEuCI5YS6ms6ObZgjjedm+jm6XZjdNRWBpPP6Z86oOxcw==}
     peerDependencies:
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
 
   '@tanstack/virtual-core@3.13.21':
     resolution: {integrity: sha512-ww+fmLHyCbPSf7JNbWZP3g7wl6SdNo3ah5Aiw+0e9FDErkVHLKprYUrwTm7dF646FtEkN/KkAKPYezxpmvOjxw==}
@@ -4477,7 +4477,7 @@ packages:
   '@vitejs/devtools-kit@0.7.6':
     resolution: {integrity: sha512-VtnTo296ypQyksFcPgrUyDDxh/SuAa/18uWEitbODcJIu5eilMFQyaSzsLKgp0HQPsxo/Kfzbfl5gowNGfjwqQ==}
     peerDependencies:
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
 
   '@vitejs/devtools-rolldown@0.7.6':
     resolution: {integrity: sha512-uoxchaiha0U2s6mbBFx5dJmNztMgPmjdii+9NryN/YNQnq1uMoOEZ8ym5ui6niB8kbC9wTQrU5aw2yKr5atSdg==}
@@ -4485,7 +4485,7 @@ packages:
   '@vitejs/devtools-vite@0.7.6':
     resolution: {integrity: sha512-/y8ozt0eBqvqLB8iFpQUsvfkJlKpNEtF9+LPDD4RAfBo8zlXwkPsSUmbYnPZ50rmEccOQRtDpl1ezL22Iyio4w==}
     peerDependencies:
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
 
   '@vitejs/devtools@0.7.6':
     resolution: {integrity: sha512-ys4jy3cP+OibJRyM7cKXJPukb89Q0MbYUVAWjTyQlaboEi4EjOwAkbh9467Dk+ycMH3F/B9DrmXJAMBT4504xA==}
@@ -4495,7 +4495,7 @@ packages:
       '@vitejs/devtools-rolldown': ^0.7.6
       '@vitejs/devtools-vite': ^0.7.6
       '@vitejs/devtools-vitest': ^0.7.6
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
     peerDependenciesMeta:
       '@vitejs/devtools-oxc':
         optional: true
@@ -4513,7 +4513,7 @@ packages:
     resolution: {integrity: sha512-0ZjgOg7oO6farnNGup7yvoM/YXZV84OZxHAwtflItNa/6zzQyVb5LNxyea3FEKEX2XlagIKzrlH7wwxkKgtiew==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
       vue: ^3.2.25
 
   '@vitejs/release-scripts@1.10.0':
@@ -4873,7 +4873,7 @@ packages:
     resolution: {integrity: sha512-T8sWAIbkSyAjkwTcaEc3Iu0o9A27X1/kdXrizhZkGuSKScRQtRzclfAMpOTcGdXCsqxeWlpGy3XjqaW8CpLORg==}
     peerDependencies:
       msw: ^2.4.9
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
     peerDependenciesMeta:
       msw:
         optional: true
@@ -8069,7 +8069,7 @@ packages:
   vitepress-plugin-group-icons@1.7.6:
     resolution: {integrity: sha512-fXSpQAYHpFpEsZLKWQAwbRx/+0uRSHmY58YNAQcz0AVirGsM6w22jtSmQhOGLEj8ZKyeRtTJrpx6otUI6wvoaQ==}
     peerDependencies:
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
     peerDependenciesMeta:
       vite:
         optional: true
@@ -8106,7 +8106,7 @@ packages:
       '@vitest/ui': 5.0.3
       happy-dom: '*'
       jsdom: '*'
-      vite: workspace:*
+      vite: workspace:@paul-browne/vite@*
     peerDependenciesMeta:
       '@edge-runtime/vm':
         optional: true

@@ -1,3 +1,24 @@
+# @paul-browne/vite
+
+A fork of [Vite](https://github.com/vitejs/vite) that adds a `displayName` config option, so tools built on Vite can show their own name in CLI banners, log prefixes and the browser console instead of "vite" ([vitejs/vite#23175](https://github.com/vitejs/vite/issues/23175), [vitejs/vite#23695](https://github.com/vitejs/vite/pull/23695)). Versions match the upstream Vite release they are based on.
+
+Install it under the `vite` name so plugins and `import ... from 'vite'` keep working:
+
+```sh
+npm i -D vite@npm:@paul-browne/vite
+```
+
+```js
+// vite.config.js
+import { defineConfig } from 'vite'
+
+export default defineConfig({ displayName: 'my-tool' })
+```
+
+The original Vite README follows.
+
+---
+
 # Vite ⚡
 
 > Next Generation Frontend Tooling
