@@ -12,7 +12,7 @@ shellEmulator: true
 autoInstallPeers: false
 dedupeInjectedDeps: false
 overrides:
-  vite: 'workspace:*'
+  vite: 'workspace:@paul-browne/vite@*'
   debug: 'npm:obug@^1.0.2'
 patchedDependencies:
   "sirv@3.0.2": "patches/sirv@3.0.2.patch"
